@@ -13,6 +13,9 @@ CKnave = Symbol("C is a Knave")
 # A says "I am both a knight and a knave."
 knowledge0 = And(
     # knowledge from problem setup
+   # its always true that A is either a knight or a knave, but not both
+    
+   
     Or(AKnave, AKnight),
     Not(And(AKnight, AKnave)),
     
@@ -70,10 +73,12 @@ knowledge3 = And(
     # knowledge from statements
     Or(  # A said one of the statements
         And(  # if A said "I am a knight."
-            Implication(AKnight, AKnight), Implication(AKnave, Not(AKnight))
+            Implication(AKnight, AKnight),
+            Implication(AKnave, Not(AKnight))
         ),
         And(  # or if A said "I am a knave."
-            Implication(AKnight, AKnave), Implication(AKnave, Not(AKnave))
+            Implication(AKnight, AKnave), 
+            Implication(AKnave, Not(AKnave))
         ),
     ),
     Not(
@@ -86,6 +91,8 @@ knowledge3 = And(
             ),
         )
     ),
+
+
     # B talking about what A said
     # and what A actually said, depending on who B and A are
     Implication(BKnight, Implication(AKnight, AKnave)),
@@ -119,3 +126,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    
