@@ -137,6 +137,21 @@ Covers:
 
 ---
 
+---
+
+## 👨‍💻 Author
+
+<p align="center">
+  <b>Muhammad Waleed Akram</b><br>
+  Electrical Engineering Student | AI Enthusiast | Problem Solver
+</p>
+
+<p align="center">
+  <img src="images/certificate.png" alt="CS50AI Certificate" width="500">
+</p>
+
+
+---
 ## 🛡️ Disclaimer
 
 This repository was created for educational purposes only and reflects my learning journey through Harvard’s CS50AI course.  
