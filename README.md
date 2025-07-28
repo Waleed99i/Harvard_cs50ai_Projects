@@ -85,6 +85,12 @@ Covers:
 - Backtracking search
 - Domain reduction and consistency
 
+## Output
+
+<p align="center">
+  <img src="project_07_CrossWord/output.png" alt="Cross_Word" width="500">
+</p>
+
 ---
 
 ### 📁 `project_08_Shopping` - Shopping Prediction  
