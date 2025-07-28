@@ -7,7 +7,7 @@ class CrosswordCreator:
 
     def __init__(self, crossword):
         """
-        Create new CSP crossword generate.
+        Create new CSP crossword generate.(Constraint Satisfaction Problem (CSP) techniques)
         """
         self.crossword = crossword
         self.domains = {
