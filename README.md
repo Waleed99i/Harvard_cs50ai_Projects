@@ -115,6 +115,43 @@ Covers:
 - Image classification
 - Overfitting and regularization
 
+## Accuracy:
+    I got an accuracy of 96.5%
+  
+## Output
+
+Epoch 1/10
+500/500 ━━━━━━━━━━━━━━━━━━━━ 21s 35ms/step - accuracy: 0.0649 - loss: 5.8748   
+
+Epoch 2/10
+500/500 ━━━━━━━━━━━━━━━━━━━━ 17s 35ms/step - accuracy: 0.2378 - loss: 2.9303
+
+Epoch 3/10
+500/500 ━━━━━━━━━━━━━━━━━━━━ 18s 36ms/step - accuracy: 0.4708 - loss: 1.7880
+
+Epoch 4/10
+500/500 ━━━━━━━━━━━━━━━━━━━━ 17s 34ms/step - accuracy: 0.6357 - loss: 1.1792
+
+Epoch 5/10
+500/500 ━━━━━━━━━━━━━━━━━━━━ 17s 35ms/step - accuracy: 0.7229 - loss: 0.8764
+
+Epoch 6/10
+500/500 ━━━━━━━━━━━━━━━━━━━━ 17s 34ms/step - accuracy: 0.7738 - loss: 0.6949
+
+Epoch 7/10
+500/500 ━━━━━━━━━━━━━━━━━━━━ 17s 35ms/step - accuracy: 0.8145 - loss: 0.5835
+
+Epoch 8/10
+500/500 ━━━━━━━━━━━━━━━━━━━━ 18s 36ms/step - accuracy: 0.8338 - loss: 0.5114 
+
+Epoch 9/10
+500/500 ━━━━━━━━━━━━━━━━━━━━ 18s 36ms/step - accuracy: 0.8566 - loss: 0.4622
+
+Epoch 10/10
+500/500 ━━━━━━━━━━━━━━━━━━━━ 17s 33ms/step - accuracy: 0.8797 - loss: 0.3924
+
+333/333 - 4s - 12ms/step - accuracy: 0.9657 - loss: 0.1369
+
 ---
 
 ### 📁 `project_11_Attention` - Masked Language Modeling  
