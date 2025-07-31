@@ -103,9 +103,9 @@ class CrosswordCreator:
         (Remove any values that are inconsistent with a variable's unary
          constraints; in this case, the length of the word.)
         """
-        for var in self.domains:
-            self.domains[var] = {
-                value for value in self.domains[var] if len(value) == var.length
+        for variable in self.domains:
+            self.domains[variable] = {
+                value for value in self.domains[variable] if len(value) == variable.length
             }
 
     def revise(self, x, y):
