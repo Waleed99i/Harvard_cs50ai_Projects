@@ -93,19 +93,19 @@ def np_chunk(tree):
     return NP_chunks
 
 
-def check_subtree(subtree: nltk.tree.tree.Tree) -> bool:
-    """
-    Function check if there are any NP tags
-    one level deeper in a subtree
-    """
-    for node in subtree.subtrees():
-        if subtree == node:
+def check_subtree(subtree):
+    # Loop through all smaller trees inside the given subtree
+    for small_tree in subtree.subtrees():
+        # Skip checking the main subtree itself
+        if small_tree == subtree:
             continue
-
-        if node.label() == 'NP':
+        # If we find another NP inside, return True
+        if small_tree.label() == 'NP':
             return True
 
+    # If no other NP was found inside, return False
     return False
+
 
 
 if __name__ == "__main__":
