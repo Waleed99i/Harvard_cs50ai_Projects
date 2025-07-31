@@ -184,6 +184,12 @@ Covers:
 - [NLTK](https://www.nltk.org/)
 - Syntax trees and parsing
 
+## Example Output 
+
+<p align="center">
+  <img src="images/parser.png" alt="parser" width="500">
+</p>
+
 ---
 
 ---
