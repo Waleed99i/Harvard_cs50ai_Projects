@@ -55,6 +55,12 @@ Covers:
 - Logical constraints
 - Safe move inference
 
+## Example Output:
+
+<p align="center">
+  <img src="images/minesweeper.png" alt="Minesweeper" width="500">
+</p>
+
 ---
 
 ### 📁 `project_05_Heredity` - Genetic Inheritance  
